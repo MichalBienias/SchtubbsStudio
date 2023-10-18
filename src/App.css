@@ -1,0 +1,60 @@
+/* src/App.css */
+
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about, .contact {
+  margin: 20px 0;
+}
+
+h2 {
+  border-bottom: 2px solid yellow;
+  display: inline-block;
+}
+
+a {
+  color: purple;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: purple;
+}
+
